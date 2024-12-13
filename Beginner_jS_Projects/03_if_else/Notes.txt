@@ -1,0 +1,13 @@
+Hello Everyone!!!
+
+I'm just a beginner in coding... Learning & practicing HTML, CSS, jS & MERN stack as well.
+
+This is a simple program takes an input from user & display the result accordingly.
+
+Also joins the two given names & displays the full name.
+
+jS highlights :| if-Else | operators | addEventListener | template Literals | 
+
+Styles applied may fit with only laptop screens, yet to complete for other gadgets.
+
+Day by day, will try to enhance this further better...

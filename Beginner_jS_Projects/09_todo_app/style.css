@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+}
+
+header, main, footer {
+    display: grid;
+    place-content: center;
+}
+
+header, footer {
+    position: sticky;
+}
+
+header {
+    top: 0;
+    border-bottom: 5px solid white;
+    padding: 5px;
+}
+
+h1, .author {
+    color:white;
+    text-align:center;
+}
+
+span {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.highlight {
+    text-align: center;
+    font-size: large;
+    padding: 2px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.todo-container {
+    width: 500px;
+    background-color: rgb(236, 7, 53);
+    border: 7px solid rgb(5, 233, 5);
+    border-radius: 10px;
+    justify-items:center;
+    padding: 10px;
+}
+
+.input-box {
+    height: 50px;
+    width:370px;
+    margin-left:-20px;
+    font-size: medium;
+    border:4px solid rgb(180, 178, 178);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.input-section {
+    padding: 10px;
+}
+
+#add-btn {
+    height: 50px;
+    width: 75px;
+    margin-right:-20px;
+    font-size: large;
+    font-weight: bold;
+    border: 4px solid rgb(180, 178, 178);
+    border-radius: 5px;
+}
+
+li {
+    border:4px solid rgb(255, 255, 255);
+    background-color: rgb(180, 178, 178);
+    border-radius: 5px;
+    padding:5px;
+    width: 460px;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    font-size: large;
+    color: black;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+button {
+    cursor: pointer;
+    font-size: small;
+    padding: 5px;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+button:hover { 
+    background: yellow;
+}
+
+ul {
+    list-style:none;
+}
+
+footer {
+    bottom: 0;
+    border-top: 5px solid white;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+

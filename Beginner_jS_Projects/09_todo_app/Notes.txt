@@ -1,0 +1,15 @@
+Hello Everyone!!!
+
+I'm just a beginner in coding... Learning & practicing HTML, CSS, jS & MERN stack as well.
+
+This is a simple To-do / Task Manager Program.
+
+jS highlights :| forEach | addEventListener | parse | stringfy |
+
+Buttons previous & next, yet to complete.
+
+Duplicate Task Removal, yet to complete.
+
+Styles applied may fit with only laptops screens, yet to complete for other gadgets.
+
+Day by day, will try to enhance this further better...
