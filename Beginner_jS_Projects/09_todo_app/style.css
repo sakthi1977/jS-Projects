@@ -176,11 +176,12 @@ footer {
 
 @media (max-width:480px) {
     header {
-        font-size: medium;
+        font-size: small;
     }
 
     .highlight{
         font-size: small;
+        font-weight: bold;
     }
     
     .todo-container {
