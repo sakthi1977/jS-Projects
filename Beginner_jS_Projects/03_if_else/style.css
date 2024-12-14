@@ -185,7 +185,7 @@ footer {
 
 /* Media Query for Screens 480px and Below */
 @media (max-width: 480px) {
-    h1, span {
+    h1 {
         font-size: large;
     }
 
