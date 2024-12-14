@@ -164,7 +164,7 @@ footer {
 
 @media (max-width:480px) {
     header {
-        font-size: medium;
+        font-size: small;
     }
 
     .todo-container {
@@ -192,6 +192,6 @@ footer {
     }
 
     footer {
-        font-size: small;
+        font-size:smaller;
     }
 }
