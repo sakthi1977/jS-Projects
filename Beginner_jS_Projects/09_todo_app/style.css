@@ -126,3 +126,72 @@ footer {
     font-size: large;
 }
 
+@media (max-width: 768px) and (orientation: portrait) {
+    header {
+        font-size: large;
+    }
+
+    .todo-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .input-box{
+        width: 85%;
+        margin-left: -15px;
+        font-size: medium;
+    }
+
+    .input-section{
+        width: 100%;
+    }
+
+    #add-btn {
+        width:45px;
+        font-size: small;
+    }
+
+    li {
+        width: 100%;
+        font-size:medium;
+    }
+
+    footer {
+        font-size: medium;
+    }
+
+}
+
+@media (max-width:480px) {
+    header {
+        font-size: medium;
+    }
+
+    .todo-container {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .input-box {
+        width: 80%;
+        font-size: x-small;
+    }
+
+    .input-section{
+        width: 100%;
+    }
+
+    #add-btn {
+        width: 40px;
+        font-size: small;
+    }
+
+    li {
+        width: 100%;
+        font-size: small;
+    }
+
+    footer {
+        font-size: small;
+    }
+}
