@@ -27,6 +27,8 @@ header {
     top: 0;
     border-bottom: 5px solid white;
     padding: 5px;
+    font-size: small;
+    font-weight: lighter;
 }
 
 h1, .author {
@@ -49,20 +51,27 @@ main {
     flex-grow: 1;
 }
 
+.boxheading{
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+}
+
 .todo-container {
-    width: 500px;
+    width: 370px;
     background-color: rgb(236, 7, 53);
     border: 7px solid rgb(5, 233, 5);
     border-radius: 10px;
     justify-items:center;
     padding: 10px;
+    font-weight: lighter;
 }
 
 .input-box {
-    height: 50px;
-    width:370px;
+    height: 30px;
+    width:250px;
     margin-left:-20px;
-    font-size: medium;
+    font-size: smaller;
     border:4px solid rgb(180, 178, 178);
     background-color: white;
     border-radius: 5px;
@@ -73,10 +82,10 @@ main {
 }
 
 #add-btn {
-    height: 50px;
+    height: 30px;
     width: 75px;
     margin-right:-20px;
-    font-size: large;
+    font-size: small;
     font-weight: bold;
     border: 4px solid rgb(180, 178, 178);
     border-radius: 5px;
@@ -87,13 +96,14 @@ li {
     background-color: rgb(180, 178, 178);
     border-radius: 5px;
     padding:5px;
-    width: 460px;
+    height: 30px;
+    width: 340px;
     word-wrap: break-word;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 9px;
-    font-size: large;
+    font-size: small;
     color: black;
 }
 
@@ -104,7 +114,7 @@ li {
 button {
     cursor: pointer;
     font-size: small;
-    padding: 5px;
+    padding: 1.5px;
     border: 2.5px solid rgb(0, 0, 0);
     border-radius: 4px;
     margin-left: 10px;
@@ -123,7 +133,7 @@ footer {
     border-top: 5px solid white;
     padding: 10px;
     text-align: center;
-    font-size: large;
+    font-size: small;
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -138,7 +148,8 @@ footer {
 
     .input-box{
         width: 85%;
-        margin-left: -15px;
+        height: 35px;
+        margin-left: -8px;
         font-size: medium;
     }
 
@@ -148,6 +159,7 @@ footer {
 
     #add-btn {
         width:45px;
+        height: 35px;
         font-size: small;
     }
 
@@ -164,9 +176,13 @@ footer {
 
 @media (max-width:480px) {
     header {
-        font-size: small;
+        font-size: medium;
     }
 
+    .highlight{
+        font-size: small;
+    }
+    
     .todo-container {
         width: 100%;
         padding: 8px;
@@ -192,6 +208,6 @@ footer {
     }
 
     footer {
-        font-size:smaller;
+        font-size: small;
     }
 }
