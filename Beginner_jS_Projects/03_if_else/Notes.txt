@@ -8,6 +8,6 @@ Also joins the two given names & displays the full name.
 
 jS highlights :| if-Else | operators | addEventListener | template Literals | 
 
-Styles applied may adapt with only laptop & few mobile screens, yet to complete for other gadgets.
+Styles applied may adapt with only laptop & few mobile portrait views, yet to update for mobile landscapes & other gadgets.
 
 Day by day, will try to enhance this further better...
