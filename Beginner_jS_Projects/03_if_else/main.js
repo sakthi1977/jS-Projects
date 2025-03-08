@@ -42,30 +42,11 @@ document.getElementById('popUpBtn').addEventListener('click', ()=>{
     let popUpResult = document.getElementById('popUpBox');
 
     setTimeout(()=>{
-        popUpResult.innerHTML = 'My sincere thanks to <a href="https://www.youtube.com/@LearnzDevelopmentHub">Learnz Development Hub </a>';
-    }, 1000);
-
-    setTimeout(()=>{
-        popUpResult.innerHTML = 'My sincere thanks to <a href="https://novitechrd.com/">NoviTech</a>';
-    }, 4000);
-
-    setTimeout(()=>{
-        popUpResult.innerHTML = 'My sincere thanks to <a href="https://www.youtube.com/@DaveGrayTeachesCode">Dave Gray</a>';
-    }, 6000);
-
-    setTimeout(()=>{
-        popUpResult.innerHTML = 'My sincere thanks to <a href="https://www.youtube.com/@Balachandra_in">Balachandra</a>';
-    }, 8000);
-    
-    setTimeout(()=>{
-        popUpResult.innerHTML = 'My sincere thanks to <a href="https://www.youtube.com/@ErrorMakesClever">Error Makes Clever</a>';
-    }, 10000);
-    setTimeout(()=>{
         popUpResult.innerHTML = 'My sincere thanks to <a href="https://www.google.co.in/">Google</a> <a href="https://www.youtube.com/">YouTube</a> <a href="https://openai.com/index/chatgpt/">ChatGPT</a> ';
-    }, 12000);
+    }, 1000);
     
     setTimeout(()=>{
         popUpResult.innerHTML = '' ;
-    }, 14000);
+    }, 5000);
 });
 
